@@ -1,6 +1,6 @@
 # Hi.Events Render.com One-Click Deployment
 
-Deploy [Hi.Events](https://github.com/HiEventsDev/hi.events) with one click on Render.
+Deploy [Hi.Events-lila-lama](https://github.com/iuljan/hi.events-lilalama-render.com/) with one click on Render.
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/iuljan/hi.events-lilalama-render.com/)
 
