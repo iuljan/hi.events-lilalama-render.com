@@ -2,7 +2,7 @@ services:
   - type: web
     name: lila-lama-tix
     region: frankfurt
-    plan: starter
+    plan: free
     autoDeploy: false
     runtime: docker
     repo: https://github.com/HiEventsDev/hi.events-render.com.git
@@ -59,4 +59,4 @@ services:
 databases:
   - name: lila-lama-tix-db
     region: frankfurt
-    plan: starter
+    plan: free
