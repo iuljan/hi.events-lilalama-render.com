@@ -41,19 +41,19 @@ services:
         value: array
       - key: MAIL_USERNAME
         value: array
-      - STRIPE_PUBLIC_KEY:
+      - key: STRIPE_PUBLIC_KEY
         value: array
-      - STRIPE_SECRET_KEY:
+      - key: STRIPE_SECRET_KEY
         value: array
-      - STRIPE_WEBHOOK_SECRET:
+      - key: STRIPE_WEBHOOK_SECRET
         value: array
-      - VITE_API_URL_CLIENT:
+      - key: VITE_API_URL_CLIENT
         value: array
-      - VITE_API_URL_SERVER:
+      - key: VITE_API_URL_SERVER
         value: array
-      - VITE_FRONTEND_URL:
+      - key: VITE_FRONTEND_URL
         value: array
-      - VITE_STRIPE_PUBLISHABLE_KEY:
+      - key: VITE_STRIPE_PUBLISHABLE_KEY
         value: array
 
 databases:
