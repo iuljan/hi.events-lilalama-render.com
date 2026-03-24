@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: hi-events
+    name: lila-lama-tix
     plan: free
     autoDeploy: false
     runtime: docker
@@ -27,5 +27,5 @@ services:
       - key: FILESYSTEM_PRIVATE_DISK
         value: local
 databases:
-  - name: hi-events-db
+  - name: lila-lama-tix-db
     plan: free
