@@ -9,6 +9,7 @@ Deploy [Hi.Events-lila-lama](https://github.com/iuljan/hi.events-lilalama-render
 1. Click the Deploy to Render button above.
 2. Follow the Render setup instructions.
 3. Complete the setup and deploy your application.
+4. hab noch einiges angepasst
 
 ## 🔄 How to Update
 
