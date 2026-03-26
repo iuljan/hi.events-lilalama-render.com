@@ -2,10 +2,10 @@ services:
   - type: web
     name: lila-lama-tix
     region: frankfurt
-    plan: free
+    plan: starter
     autoDeploy: false
     runtime: docker
-    repo: https://github.com/HiEventsDev/hi.events-render.com.git
+    repo: https://github.com/iuljan/hi.events-lilalama-render.com.git
     envVars:
       - key: PORT
         value: 80
@@ -14,47 +14,20 @@ services:
           name: lila-lama-tix-db
           property: connectionString
       - key: APP_KEY
-        value: base64:G/ZFls3twiNLjiGrC0W2Zs475ZWxH4UsuvAV4u24wOE=
+        generateValue: true
       - key: JWT_SECRET
         generateValue: true
       - key: LOG_CHANNEL
         value: stderr
       - key: QUEUE_CONNECTION
         value: sync
+      - key: MAIL_MAILER
+        value: smtp
       - key: FILESYSTEM_PUBLIC_DISK
         value: public
       - key: FILESYSTEM_PRIVATE_DISK
         value: local
-      - key: MAIL_MAILER
-        value: array
-      - key: MAIL_ENCRYPTION
-        value: array
-      - key: MAIL_FROM_ADDRESS
-        value: array
-      - key: MAIL_FROM_NAME
-        value: array
-      - key: MAIL_HOST
-        value: array
-      - key: MAIL_PASSWORD
-        value: array
-      - key: MAIL_PORT
-        value: array
-      - key: MAIL_USERNAME
-        value: array
-      - key: STRIPE_PUBLIC_KEY
-        value: array
-      - key: STRIPE_SECRET_KEY
-        value: array
-      - key: STRIPE_WEBHOOK_SECRET
-        value: array
-      - key: VITE_API_URL_CLIENT
-        value: array
-      - key: VITE_API_URL_SERVER
-        value: array
-      - key: VITE_FRONTEND_URL
-        value: array
-      - key: VITE_STRIPE_PUBLISHABLE_KEY
-        value: array
+ 
 
 databases:
   - name: lila-lama-tix-db
