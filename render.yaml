@@ -27,6 +27,8 @@ services:
         value: public
       - key: FILESYSTEM_PRIVATE_DISK
         value: local
+      - key: VITE_FRONTEND_URL
+        value: https://tix.lilalamacamp.de
  
 
 databases:
